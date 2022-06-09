@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "thingsinrocks:block/deepslate_citrine_ore"
+  }
+}
