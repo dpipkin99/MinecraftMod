@@ -7,6 +7,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.GlassBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -42,7 +43,7 @@ public class ModBlocks {
                     .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.THINGSINROCKS_TAB);
 
     public static final RegistryObject<Block> AMBER_BLOCK = registerBlock( "amber_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.GLASS)
+            () -> new GlassBlock(BlockBehaviour.Properties.of(Material.GLASS).noOcclusion()
                     .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.THINGSINROCKS_TAB);
 
 
