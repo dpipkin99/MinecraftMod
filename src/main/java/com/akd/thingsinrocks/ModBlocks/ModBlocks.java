@@ -1,5 +1,6 @@
 package com.akd.thingsinrocks.ModBlocks;
 
+import com.akd.thingsinrocks.item.ModCreativeModeTab;
 import com.akd.thingsinrocks.ThingsInRocks;
 import com.akd.thingsinrocks.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -23,23 +24,26 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> CITRINE_BLOCK = registerBlock( "citrine_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(9f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.THINGSINROCKS_TAB);
     public static final RegistryObject<Block> RAW_CITRINE_BLOCK = registerBlock( "raw_citrine_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(7f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(7f).requiresCorrectToolForDrops()), ModCreativeModeTab.THINGSINROCKS_TAB);
     public static final RegistryObject<Block> CITRINE_ORE = registerBlock( "citrine_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(5f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.THINGSINROCKS_TAB);
     public static final RegistryObject<Block> DEEPSLATE_CITRINE_ORE = registerBlock( "deepslate_citrine_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(5f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.THINGSINROCKS_TAB);
     public static final RegistryObject<Block> ENDSTONE_CITRINE_ORE = registerBlock( "endstone_citrine_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(5f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.THINGSINROCKS_TAB);
     public static final RegistryObject<Block> NETHERRACK_CITRINE_ORE = registerBlock( "netherrack_citrine_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(5f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.THINGSINROCKS_TAB);
 
+    public static final RegistryObject<Block> AMBER_BLOCK = registerBlock( "amber_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.GLASS)
+                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.THINGSINROCKS_TAB);
 
 
 

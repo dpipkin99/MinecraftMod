@@ -7,6 +7,10 @@
   "block.thingsinrocks.raw_citrine_block": "Raw Citrine Block",
   "block.thingsinrocks.deepslate_citrine_ore": "Deepslate Citrine Block",
   "block.thingsinrocks.endstone_citrine_ore": "Endstone Citrine Block",
-  "block.thingsinrocks.netherrack_citrine_ore": "Netherrack Citrine Block"
+  "block.thingsinrocks.netherrack_citrine_ore": "Netherrack Citrine Block",
+
+  "itemGroup.thingsinrockstab": "Things In Rocks",
+
+  "block.thingsinrocks.amber_block": "Amber Block"
 
 }
