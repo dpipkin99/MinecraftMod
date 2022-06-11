@@ -1,9 +1,9 @@
-{   "parent": "block/block",
+{   "parent": "block/cube_all",
   "textures": {
-    "particle": "block/honey_block_top",
-    "down": "block/honey_block_bottom",
-    "up": "block/honey_block_top",
-    "side": "block/honey_block_side"
+    "particle": "thingsinrocks:block/amber_block_top",
+    "down": "thingsinrocks:block/amber_block_bottom",
+    "up": "thingsinrocks:block/amber_block_top",
+    "side": "thingsinrocks:block/amber_block_side"
   },
   "elements": [
     {   "from": [ 0, 0, 0 ],
